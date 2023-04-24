@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 300;
+    font-style: normal;
+    src: url('ProximaNova-Light.woff2') format('woff2'),
+        url('ProximaNova-Light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 500;
+    font-style: normal;
+    src: url('ProximaNova-Light.woff2') format('woff2'),
+        url('ProximaNova-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'LagunaC';
+    font-weight: 400;
+    font-style: normal;
+    src: url('LagunaC.woff2') format('woff2'),
+        url('LagunaC.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'LagunaC';
+    font-weight: 400;
+    font-style: italic;
+    src: url('LagunaC-Italic.woff2') format('woff2'),
+        url('LagunaC-Italic.woff') format('woff');
+}
+

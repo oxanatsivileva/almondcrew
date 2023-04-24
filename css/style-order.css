@@ -1,0 +1,186 @@
+.order {
+  padding: 2% 0 167px;
+  color: #000000;
+}
+select{
+  display: block;
+}
+input{
+  display: block
+}
+.order-form label {
+  margin-bottom: 8px;
+}
+
+.order-col-1 {
+  width: 50% !important;
+}
+.order-col-2 {
+  width: 40% !important;
+}
+.name-input {
+  margin-top: -15px;
+}
+
+.country {
+  font: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+} 
+#country * {
+  width: 290px;
+} 
+
+.country:not([multiple]) {
+    padding-right: 1.2em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.25em) 0.7em;
+    background-size: 0.85em auto;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cpath d='M70.3 13.8L40 66.3 9.7 13.8z' fill='%23000'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.country::-ms-expand {
+  display: none;
+}
+
+.common-form input, .common-form select {
+    width: 298px;
+    margin-bottom: 6%;
+    border: 1px solid #000000;
+    background: none;
+    border-radius: 16px;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+
+.order label {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.type-pay {
+    margin-top: 6%;
+}
+
+.order-input input,
+.order-input select {
+  margin-bottom: 0 !important;
+}
+
+.type-pay input {
+    width: 20px;
+    height: 19px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 1px;
+}
+
+.type-pay label {
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.type-pay-title {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.type-del-item,
+.type-pay-item {
+  margin-bottom: 24px;
+}
+
+.order-order {
+  max-width: 520px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.order-text {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+@media (max-width: 1400px) {
+  .order-form .order-input input,
+  .order-form .order-input select{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .common-form input,
+  .common-form select {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .common-form label {
+    font-size: 12px;
+  }
+
+  .type-pay-title {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+.order-input input {
+    display: block;
+}
+  .type-del-item,
+  .type-pay-item {
+    margin-bottom: 10px;
+  }
+
+}
+
+.check {
+  font-size: 20px;
+  font-family: 'Times New Roman', sans-serif;
+  color: #696969;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  width: 250px;
+}
+
+.color {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.check__input {
+  margin-right: 12px;
+  cursor: pointer;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+

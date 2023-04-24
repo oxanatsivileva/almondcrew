@@ -1,0 +1,212 @@
+.login {
+    max-width: 618px;
+    margin: 0 auto;
+    padding: 0px 0px 10%;
+    font-size: 14px;
+}
+.registration {
+  max-width: 854px;
+  padding-bottom: 67px;
+}
+
+
+.login-title {
+    font-size: 27px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.login form {
+  margin-bottom: 56px;
+}
+.login-remember {
+    margin-bottom: 17px;
+}
+.login-form {
+  margin-bottom: 12px;
+}
+
+.common-form input {
+  margin-bottom: 0;
+
+}
+
+.address-input {
+  margin-bottom: 3% !important;
+}
+
+.login-form-items {
+    width: 307px;
+    margin: 0 auto;
+}
+.login-form-items input {
+  margin-bottom: 23px;
+}
+/* .form-incorrect b {
+    padding-left: 73px;
+} */
+.login-text {
+  padding: 0 5%;
+  margin-bottom: 20px;
+}
+
+.login .forget-text {
+    margin-top: 0;
+}
+.login .forget-text a {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #C8A88F;
+}
+
+.login-wrap {
+    padding: 12px 0 12px;
+}
+.login .login-remember {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin: 0 auto 20px;
+}
+
+.login #login-remember, .login #policy {
+    width: 19px;
+    height: 19px;
+    margin-right: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 1px;
+    border: none;
+    margin-bottom: 0;
+}
+
+.login .login-remember label {
+  display: block;
+  width: 100%;
+}
+
+.login-btn {
+    margin: 4px 0;
+}
+
+.order-btn {
+    margin-bottom: 26px;
+}
+.login-btn button {
+    width: 360px;
+    height: 63px;
+    background: #C8A88F;
+    border-radius: 36.5px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.2em;
+    color: #F9F0EA;
+}
+
+.order-btn button {
+  width: 424px;
+}
+.edit-pass-btn {
+  margin: 0 auto;
+}
+
+.edit-pass-btn button {
+  width: 442px;
+  
+}
+.registration-form-items {
+  text-align: center;
+  width: 636px;
+
+
+}
+.registration-btn button {
+  width: 100%;
+  letter-spacing: 0.1em;
+}
+
+.common-form .registration-btn {
+margin: 0 auto;
+}
+
+/* .common-form .registration-btn {
+  text-align: center;
+} */
+
+.login p {
+    text-align: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.form-incorrect p {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #CB4207;
+    padding: 12px 0;
+    text-align: center;
+    /* width: 376px; */
+    /* margin-left: 94px; */
+}
+
+/* .text-align-left p {
+  text-align: left;
+} */
+
+.login-remember a:hover {
+  color: #6E532F;
+}
+
+
+.login-link {
+  text-align: center;
+  margin-top: 25px;
+
+}
+.login .reg-link {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #C8A88F;
+    margin: 0 auto;
+}
+
+.login .form-header .title {
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .login {
+    padding: 40px 60px 40px 45px;
+  }
+
+  .login .login-remember {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}

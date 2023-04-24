@@ -1,0 +1,265 @@
+.registration {
+  margin: 0 auto;
+  padding: 80px;
+  font-size: 20px;
+  max-width: 854px;
+  padding-bottom: 67px;
+}
+
+.form-login-link {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.form-login-link a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin: 0 -3px;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.form-login-link a span {
+  padding: 0px 7px;
+}
+
+.form-login-link a:focus,
+.form-login-link a:active {
+  border: none;
+  outline: none !important;
+}
+
+.form-header {
+    margin-bottom: 5px;
+}
+
+.form-header .title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.form-header .text {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #000000;
+    text-align: center;
+}
+.form-login-link b {
+    font-size: 20px;
+}
+.form-body {
+  margin-bottom: 50px;
+}
+
+.form-body-wrap {
+  padding: 38px 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.form-policy input {
+  width: auto;
+  margin-bottom: 0;
+}
+
+.form-btn button,
+.form-btn a {
+  display: block;
+  padding: 12px 44px;
+  font-family: "iowanoldstyle";
+  color: #fff;
+  font-size: 20px;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  background: #D5B797;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  text-align: center;
+}
+
+.registration-items {
+    display: grid;
+    grid-template: repeat(3,minmax(auto,auto))/repeat(2,1fr);
+    column-gap: 35px;
+    row-gap: 7%;
+    border-top: 0.5px solid #000000;
+    padding: 4% 0 8%;
+}
+.login-form-grid {
+  display: grid;
+  grid-template: repeat(1,minmax(auto,auto))/repeat(2,1fr);
+  gap: 35px;
+  border-top: 0.5px solid #000000;
+  border-bottom: 0.5px solid #000;
+  padding: 4% 0 45px;
+
+}
+.login-form-grid div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.registration-checkbox {
+  text-align: left;
+}
+.registration-items div {
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+}
+
+/* forget */
+
+.forget {
+  display: none;
+  max-width: 540px;
+  padding: 50px;
+}
+
+.forget .form-header .title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 54px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+
+.forget .form-header .text {
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+.password-modal label {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.login-btn button {
+    height: 55px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2em;
+    color: rgb(249, 240, 234);
+    width: 392px;
+    background: rgb(200, 168, 143);
+    border-radius: 36.5px;
+}
+.password-modal-btn button {
+  height: 73px;
+  background: #C8A88F;
+  border-radius: 36.5px;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.2em;
+  color: #F9F0EA;
+}
+/* edit-pass */
+
+.edit-pass {
+  max-width: 650px;
+  padding: 80px;
+  margin: 0 auto;
+  padding-bottom: 10% !important;
+}
+
+.edit-pass input {
+  margin-bottom: 0;
+}
+
+.edit-pass .title {
+  text-align: center;
+}
+
+.check-pass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 8px 0 40px;
+}
+
+.check-pass > div {
+  width: 8.333%;
+  height: 6px;
+  background: #FBF6F2;
+  margin: 0 1px;
+}
+
+/* edit-info */
+
+.edit-info {
+  display: none;
+  padding: 80px;
+  color: #4e3e30;
+  max-width: 500px;
+}
+
+.form-incorrect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #CB4207;
+    padding: 4px 0;
+    text-align: center;
+
+}
+
+input.incorrect,
+select.incorrect {
+  border: 2px solid #b90909 !important;
+}
+
+@media (max-width: 768px) {
+  .registration {
+    padding: 40px 10px;
+  }
+
+  .form-header .title {
+    font-size: 36px !important;
+    text-align: center;
+  }
+
+  .edit-pass {
+    padding: 15px;
+  }
+
+  .edit-info {
+    padding: 30px 10px;
+  }
+}
